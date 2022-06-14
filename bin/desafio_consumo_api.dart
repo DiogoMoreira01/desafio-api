@@ -1,5 +1,11 @@
-import 'package:desafio_consumo_api/desafio_consumo_api.dart' as desafio_consumo_api;
+import 'package:desafio_consumo_api/controller/filmes_controller.dart';
 
 void main(List<String> arguments) {
-  print('Hello world: ${desafio_consumo_api.calculate()}!');
+  //FilmesController().findAll();
+
+  //FilmesController().findById("919689");
+  // print('Hello world: ${desafio_consumo_api.calculate()}!');
+
+  // FilmesController().update();
+  FilmesController().insert();
 }
